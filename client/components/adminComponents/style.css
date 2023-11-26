@@ -1,0 +1,189 @@
+#wrapper {
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+    width: 262px;
+    height: 351px;
+    background: white;
+    margin: 26px; 
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0;
+    transform: scale(0.95);
+    transition: box-shadow 0.5s, transform 0.5s;
+    background-color: #ffffff0a;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+    transform: scale(1);
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .card .top {
+    height: 80%;
+    width: 100%;
+    background: url(https://s-media-cache-ak0.pinimg.com/736x/49/80/6f/49806f3f1c7483093855ebca1b8ae2c4.jpg)
+      no-repeat center center;
+    background-size: cover;
+  }
+
+  .deleteicon{
+    top: -128%;
+    position: absolute;
+    left: 1410%;
+    color: #ff00009e
+  }
+  .profileimage{
+    border-radius: 100px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 37px;
+    margin-top: -13px;
+  }
+  #table-white{
+    color: #FFF;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
+font-style:normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+  }
+  #table-red{
+    color: #F22;
+font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+  }
+  #table-green{
+    color: #0ACF41;
+font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+  }
+#tablecell{
+    color: #FFF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+  
+  }
+.table{
+ 
+  height: 197px;
+  table-layout: auto;
+  width: 1465px;
+  
+}
+
+h1.titl {
+  font-family: SF Pro Display;
+  font-size: 63px;
+  line-height: 4px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 0%;
+}
+.cards{
+  margin-bottom: 69px;
+  margin-top: 109px;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+.underTitle{
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 153px;
+
+}
+.alll{
+  margin-bottom: 190px;
+}
+.list{
+  height: 67px;
+  width: 386px;
+  background-color: #ffffff0a;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(0.95);
+  transition: box-shadow 0.5s, transform 0.5s;
+  position: relative;
+  left: 32%;
+  margin: 60px;
+}
+
+.list:hover {
+  transform: scale(1);
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+.listitem{
+  position: relative;
+  left: 5%;
+  color:#ffffffe6;
+  font-style:italic;
+ 
+}
+
+.cardimage{
+  height: 200px;
+  width: 200px;
+  border-radius: 6px;
+  left: 5%;
+  margin: 3%;
+  position: relative;
+}
+.product{
+  width: 262px;
+  height: 435px;
+  background: white;
+  margin: 26px; 
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0;
+  transform: scale(0.95);
+  transition: box-shadow 0.5s, transform 0.5s;
+  background-color: #ffffff0a;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product:hover {
+  transform: scale(1);
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+.white{
+  color: #ffffff69
+}
+.arrowBackIcon{
+  height: 44px;
+    width: 44px;
+    border-radius: 253px;
+    left: 5%;
+    margin: 1%;
+    position: relative;
+    top: 0%;
+}
+.buttonArrowBack{
+  background-color: #8651513d;
+}

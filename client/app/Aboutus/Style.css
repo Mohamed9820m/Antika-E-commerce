@@ -1,0 +1,117 @@
+
+  
+  .aboutus-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-top: 9%;
+  }
+  
+
+  .aboutus-description {
+    width: 50%;
+    text-align: center;
+    color: #FFFFFF80;
+  }
+  
+  .aboutus-details {
+    margin: 2% 10%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .aboutus-details-content-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:50%;
+    margin-top: 11%;
+  }
+  .aboutus-details-content-2{
+    margin: 13% 10%;
+    display: flex;
+  }
+  .aboutus-content-2{
+    width: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6%;
+    
+}
+  
+  .aboutus-details-year {
+    color: #fff8;
+  }
+  
+  .aboutus-details-description {
+    margin-right: 20px;
+    color: #fff;
+  }
+  
+  .aboutus-details-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 17px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background: linear-gradient( 101deg, #681be5,#b157fc) !important;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .aboutus-image-1 {
+    border-radius: 5%;
+    height: 267px;
+    width: 24%;
+    top: 68%;
+    right: 10%;
+    position: absolute;
+  }
+  .aboutus-image {
+    border-radius: 5%;
+    height: 267px;
+    width: 24%;
+    top: 64%;
+    right: 12%;
+    position: absolute;
+  }
+  
+  .aboutus-subimage {
+    margin-top: 80px;
+    border-radius: 4%;
+    width: 100%;
+  }
+
+
+  
+  .our-team-title {
+    text-align: center;
+    color: #fff;  }
+  
+  .our-team-description {
+    margin: 2% 26%;
+    text-align: center;
+    width: 50%;
+    color: #fff8;
+  }
+  
+  .our-team-images {
+    margin: 2% 10%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 11px;
+  }
+  
+  .our-team-image {
+    width: 89%;
+    height: 89%;
+    box-shadow: 5px -4px 18px -7px rgba(31, 32, 23, 1);
+  }
+  

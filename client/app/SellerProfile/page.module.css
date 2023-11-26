@@ -1,0 +1,248 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+.BackgroundImage {
+  width: 100%;
+  height: 250%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(123deg, #984D38 0%, #181E41 63%);
+}
+.CoverImage {
+  width: 1040px;
+  height: 355px;
+  margin-top: 116px;
+  margin-left : 260px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
+  border-radius: 5px;
+}
+.photoContainer {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-top: -61px;
+  margin-left : 729px;
+  
+}
+
+.addphoto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 31px;
+  height: 31px;
+  background: #6C5DD3;
+  border-radius: 9999px;
+  margin-top: 90px;
+  margin-left : 87px;
+}
+
+.profilepic {
+  width: 120px;
+  height: 120px;
+  border-radius: 9999px;
+  border: 1.5px white solid;
+}
+
+.profilname{
+  color: white;
+  font-size: 28px;
+  font-family: 'SF Pro Display';
+  font-weight: 600;
+  word-wrap: break-word;
+  margin-top: 45px;
+  margin-left : 711px;
+}
+
+.subname{ 
+  color : rgba(255, 255, 255, 0.40);
+  font-size: 18px;
+  font-family: 'SF Pro Display';
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: 9px ;
+  margin-left : 757px ;
+}
+
+.bio {
+  width: 896px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 16px;
+  font-family: 'SF Pro Display';
+  font-weight: 400;
+  line-height: 25px;
+  word-wrap: break-word;
+  margin-top: 38px ;
+  margin-left : 351px ;
+   
+}
+
+.photoGa {
+  width: 345px;
+  height: 416px;
+  background: rgba(255, 255, 255, 0.10);
+  border-radius: 5px;
+  position: absolute; 
+  z-index: 0; 
+  margin-top: 176px ;
+  margin-left : 252px ;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+.categoryname{
+    color: white;
+    font-size: 20px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    margin-top: 197px ;
+    margin-left : 269px ;
+}
+.SeeAllPhotos{
+    color: #6C5DD3;
+    font-size: 16px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    letter-spacing: 0.16px;
+    word-wrap: break-word; 
+    margin-top: -20px ;
+    margin-left : 475px ;
+}
+.picprod{
+  width: 95px;
+  height: 91px;
+  border-radius: 4px;
+  margin-top: 88px ;
+  margin-left : 16px ;
+}
+.picprod1{
+    width: 95px;
+    height: 91px;
+    border-radius: 4px;
+    margin-top: 73px ;
+    margin-left : 23px ;
+    background-image : transparent;
+  }
+  .picprod2{
+    width: 95px;
+    height: 91px;
+    border-radius: 4px;
+    margin-top: -102px ;
+    margin-left : 123px ;
+  }
+  .picprod3{
+    width: 95px;
+    height: 91px;
+    border-radius: 4px;
+    margin-top: -100px ;
+    margin-left : 10px ;
+  }
+  .picprod4{
+    width: 95px;
+    height: 91px;
+    border-radius: 4px;
+    margin-top: -3px ;
+    margin-left : 16px ;
+  }
+  .picprod5{
+    width: 95px;
+    height: 91px;
+    border-radius: 4px;
+    margin-top: -2px ;
+    margin-left : 4px ;
+  }
+  .picprod6{
+    width: 99px;
+    height: 91px;
+    border-radius: 4px;
+    margin-top: -3px ;
+    margin-left : 5px ;
+  }
+  .picprod7{
+    width: 95px;
+    height: 91px;
+    border-radius: 4px;
+    margin-top: 2px ;
+    margin-left : 16px ;
+  }
+.profilepicture{
+    width: 43px;
+  height: 43px;
+  border-radius: 9999px;
+  margin-top: -170px ;
+    margin-left : 636px ;
+}
+.profilename{
+    color: white;
+    font-size: 20px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top: -49px ;
+    margin-left : 698px ;
+}
+.tag{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 3px ;
+    margin-left : 700px ;
+}
+.time{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-top: -43px ;
+    margin-left : 863px ;
+}
+.comment{
+    color: white;
+    font-size: 16px;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-top: 45px ;
+    margin-left : 702px ;
+}
+.post 
+{
+    width: 666px;
+  height: 426px;
+  border-radius: 5px;
+  margin-top: 21px ;
+  margin-left : 702px ;
+}
+.setting {
+    margin-top: -2px ;
+    margin-left : 613px ; 
+}
+.productItem{
+  width: 910px;
+  height: 619px;
+  position: relative;
+}
+.delete{
+  margin-top: 13px ;
+  margin-left : 1330px ; 
+}
+
+.update{
+  margin-top: 13px ;
+  margin-left : -645px ; 
+}
+.add{
+  margin-top: -22px ;
+  margin-left : 359px ; 
+}
+

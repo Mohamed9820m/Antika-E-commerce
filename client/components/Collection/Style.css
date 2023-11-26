@@ -1,0 +1,49 @@
+.collection {
+    margin: 20px;
+    padding: 20px;
+   
+  }
+  
+  .collection-header {
+    line-height: 15%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .collection-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .collection-subtitle {
+    color: #666;
+  }
+  
+  .collection-features {
+    margin: 2% 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .feature-icon {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+  
+  .feature-text {
+    font-size: 16px;
+    color: #fff;
+  }
+  .feature-icon {
+    color: #fff;
+    margin-right: 8px;
+    font-size: 50px;
+  }

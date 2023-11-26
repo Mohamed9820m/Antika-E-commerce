@@ -1,0 +1,60 @@
+.quality-container {
+    height: 320px;
+    text-align: ce,;
+    align-items: center;
+    margin-left: 18%; 
+    background: linear-gradient( #681be5, #b157fc 26%) !important;
+    width: 1018px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-quality{
+    background-color: #ffffff63;
+    border: none;
+    display: inline-block;
+    padding: 9px 14px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+/* .title{
+    font-family: SF Pro Display;
+  font-size: 60px;
+ 
+  line-height: 4px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+ 
+  }
+  .cards{
+    margin-bottom: 69px;
+    margin-top: 109px;
+    padding-left: 170px;
+    padding-right: 170px;
+  }
+  .underTitle{
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 153px;
+
+} */
+
+#table-red {
+  color:red !important;
+}
+#table-green{
+  color: rgba(10, 207, 65, 1);
+  ;
+}
+#table-white{
+  color: white;
+}
